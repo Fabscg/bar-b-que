@@ -1,13 +1,82 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  font-family: 'Allura', cursive;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.fixed-bg {
+  background-image: url("./assets/images/cover/bbq-collage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  min-height: 500px;
+  background-attachment: fixed;
+}
+
+.menu-title {
+  font-family: 'Allura', cursive;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0;
+}
+
+li,
+.gray {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+  font-size: 25px;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.menu-list {
+  padding: 50px 30px 40px 30px;
+}
+
+.container-singer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.singer-image {
+  width: 100%;
+  padding: 30px;
+}
+
+.singer-name {
+  font-size: 50px;
+}
+
+.openSign-img {
+  width: 100%;
+  padding: 20px;
+}
+
+.menu {
+  position: relative;
+  color: white;
+  padding: 30px;
+}
+
+.menu-Items,
+li {
+  list-style-type: decimal;
+  text-align: left;
+  margin: 10px;
+}
+
+.copyright {
+  color: white;
 }
