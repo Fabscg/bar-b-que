@@ -15,7 +15,7 @@ export default function Menu() {
 
                     </div>
                     <div>
-                        <li className='gray'>Smokey Sausage <p>Sausage on a bon, baked beans, corn on the cob, coleslaw.</p></li>
+                        <li className='gray'>Smokey Sausage <p>Sausage on a bun, baked beans, corn on the cob, coleslaw.</p></li>
                     </div>
                 </ul>
             </div>
@@ -24,7 +24,7 @@ export default function Menu() {
             </div>
 
             <div className='row'>
-                <div className='col-lg-6'>
+                <div className='col-lg-6 col-md-12'>
                     <h3>Saturday</h3>
                     <ul>
                         <li className='gray'>
@@ -38,7 +38,7 @@ export default function Menu() {
                         </li>
                     </ul >
                 </div >
-                <div className='col-lg-6'>
+                <div className='col-lg-6 col-md-12'>
                     <h3>Sunday</h3>
                     <ul>
                         <li className='gray'>Caesar Sunday</li>

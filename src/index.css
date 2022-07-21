@@ -91,11 +91,31 @@ li {
 }
 
 @media screen and (max-width:768px) {
+  body {
+    display: grid;
+    justify-content: center;
+  }
 
-  .grey,
+  h1,
+  h3 {
+    font-size: 30px;
+  }
+
+  .menu {
+    padding: 0;
+    width: fit-content
+  }
+
+  .menu-title {
+    font-size: 50px;
+  }
+
+  .gray,
   li {
     width: 100%;
     font-size: medium;
     margin: 0;
+    display: flex;
+    flex-direction: column;
   }
 }
