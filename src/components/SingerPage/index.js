@@ -9,7 +9,7 @@ export default function SingerPage() {
                 <img className='singer-image' src={singerImg} alt="woman singer with a guitar" />
             </div>
             <div className='singer-name col-lg-3'>
-                <p>Erin Backstock
+                <p>Erin Blackstock
                     On Patio</p>
                 <p><spam>2pm-5pm</spam></p>
             </div>

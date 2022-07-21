@@ -22,6 +22,31 @@ export default function Menu() {
             <div>
                 <h2>Drink Specials</h2>
             </div>
-        </div>
+
+            <div className='row'>
+                <div className='col-lg-6'>
+                    <h3>Saturday</h3>
+                    <ul>
+                        <li className='gray'>
+                            Muskoka Tread Lighty
+                        </li>
+                        <li>
+                            Long Island Iced Tea
+                        </li>
+                        <li className='gray'>
+                            Spiced Lemonade (Vodka Rum)
+                        </li>
+                    </ul >
+                </div >
+                <div className='col-lg-6'>
+                    <h3>Sunday</h3>
+                    <ul>
+                        <li className='gray'>Caesar Sunday</li>
+                    </ul>
+                </div >
+            </div>
+
+
+        </div >
     )
 }

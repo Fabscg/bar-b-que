@@ -3,10 +3,12 @@ body {
   background-color: black;
 }
 
-h2 {
+h2,
+h3 {
   font-family: 'Allura', cursive;
   font-size: 70px;
   font-weight: bold;
+  padding: 20px;
 }
 
 .fixed-bg {
@@ -43,6 +45,10 @@ li,
   padding: 50px 30px 40px 30px;
 }
 
+.icon {
+  color: white;
+}
+
 .container-singer {
   display: flex;
   justify-content: center;
@@ -56,12 +62,14 @@ li,
 }
 
 .singer-name {
-  font-size: 50px;
+  font-size: 60px;
+  font-family: 'Parisienne', cursive;
 }
 
 .openSign-img {
   width: 100%;
   padding: 20px;
+  transform: rotate(20deg);
 }
 
 .menu {
@@ -79,4 +87,16 @@ li {
 
 .copyright {
   color: white;
+  padding-top: 30px;
+}
+
+@media screen and (max-width:768px) {
+
+  .grey,
+  li,
+  {
+  width: 100%;
+  font-size: medium;
+  margin: 0;
+}
 }
