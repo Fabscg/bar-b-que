@@ -93,10 +93,9 @@ li {
 @media screen and (max-width:768px) {
 
   .grey,
-  li,
-  {
-  width: 100%;
-  font-size: medium;
-  margin: 0;
-}
+  li {
+    width: 100%;
+    font-size: medium;
+    margin: 0;
+  }
 }
